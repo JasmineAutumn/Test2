@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--This is a comment only. It will not show on the page. -->
+<head>
+  <title> Html tags</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Autumn">
+  <meta name="description" content="This site is about html tags">
+  <meta name="keywords" content="html, tags, elements">
+  <!--viewport is useful when the page is displayed on mobile device-->
+  <meta name="viewport" content="width=device-width,intial-scale=1">  
+  
+  <!--the page will do self refresh every 300 seconds-->
+<!--     <meta http-equiv="refresh" content="300">     -->
+
+  <link rel="icon" href="images/happiness.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+
+ <!--  <script src="https://kit.fontawesome.com/457a61a961.js" crossorigin="anonymous"></script> -->
+
+  <style>
+      img {  width: 100%;}   /*This style sets the width of all images to 100%*/
+    body {font-family:  cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif}
+  </style>
+
+</head>
+<hr>
+<body>
+  <header>    
+  <nav>
+      <ul>
+      <li><a href="https://www.google.com/" target="_blank"> Google Website (Open in new tab) </a></li>
+      <li><a href="https://www.baidu.com/" target="_self"> Baidu Website (open in self)</a></li>
+      <li><a href="MyFirstPage.html">This is a link to another web page in same folder. </a></li>
+      </ul>
+  </nav>
+</header>
+<hr>
+<aside>
+  <h4>The related article</h4>
+  <p>This is something related with the Aside tag. </p>
+  </aside>
+
+<main>
+<h1>This is heading 1. h1 </h1>
+<h2>This is heading 2. h2</h2>
+<h3>This is heading 3. h3</h3>
+
+<article>
+<h4>This is heading 4. h4</h4>
+<h5>This is heading 5. h5</h5>
+<h6>This is heading 6. h6</h6>
+</article>
+
+<hr>
+
+<p>Today is <abbr title="Sunday"> Sun</abbr>, and tomorrow is <abbr title="Monday">Mon.</abbr></p>
+
+<hr>
+<p><b>Button tag:</b></p>
+<button type="button" onclick="alert('Have a good day!')">Click me!</button>
+<hr>
+<P>Label and Meter tags:</P>
+<label for="Disk_c">Disk usage C:</label>
+<meter id="disk_c" value="2" min="0" max="10" low="3">3 out of 10</meter><br>
+
+<label for="Disk_d">Disk usage D:</label>
+<meter id="disk_d" value="0.9" high="0.8">60%</meter><br>
+
+<label for="Disk_e">Disk usage E:</label>
+<meter id="disk_e" value="0.7" high="0.8">60%</meter><br>
+
+<label for="Disk_F">Disk usage F:</label>
+<meter id="disk_F" value="0.6" optimum="0.5">60%</meter><br>
+
+<p><strong>Progress bars- Use progress tag as below:  </strong></p>
+<label for="file">Downloading progress:</label>
+<progress id="file" value="26" max="100">26%</progress><br>
+<p> ✨Note: Both progress and meter tags tend to use javascript to update them</p>
+<hr>
+
+<a href="MyFirstPage.html" target="_blank">Link to First testing page. ❤️</a>
+<!--Here, i class is an icon copied from the fontawesome icon kit-->
+<p><i class="fa-regular fa-heart" style="font-size:24px; color:red;"></i>  This is a paragraph.</p>
+
+<p><i class="fa-regular fa-star" style="font-size:24px; color:orange;"></i>This is another paragraph.</p>
+
+<p><img src="gifs/Good Night 90S GIF .gif" alt="Good Night!⭐" style="width: 200px; height: 200px; float: right;">
+The image will float to the right of the text.</p>
+
+<hr>
+
+
+
+<!--Ordered Lists-->
+<p>Below is an ordered List. </p>
+<ol>
+<li>Item One </li>
+<li>Item Two </li>
+</ol>
+<br>
+<p>Below is an unordered list.</p>
+<ul>
+<li>Item One <br> Change a line. </li>
+<li>Item Two </li>
+</ul>
+
+<a href="https://www.w3schools.com"> This is a sample Link.🍀💋</a>
+
+<br>
+<!-- alt part is the alternative text. Title is when you hover on the picture, it will show the title -->
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtDZ3-Yw3bgKq-QSpxuvlERsUfa77gz2JJcw&s" 
+alt="A picture of a flower.🍀💋" title="Pink flower" style="width: 200px; height: 200px;">
+
+<img src="gifs/Good Morning Love GIF.gif" alt="Good Morning!" style="width: 200px; height: 200px;" >
+
+<figure>   <!-- using a herf to use image as a link-->
+<a href="https://en.wikipedia.org/wiki/Giant_panda">
+<img src="images/panda1.jpg" alt="Panda1" style= "width:20%" title="Panda 1"> 
+</a>  
+<!--recommend to use style to size images, this prevents size to be overwritten by css-->
+<img src="images/panda2.jpg" alt="Panda2" style="width: 200px; height: 200px;" title="Panda 2">
+<img src="images/panda3.jpg" alt="Panda3" style="width: 200px; height: 200px;" title="Panda 3">
+<figcaption>Nice pictures of pandas ⭐⭐</figcaption>
+</figure>
+
+<hr>
+<p>Iframe</p>
+<iframe style="border: 0;" src="advertisements/ad1.html" title="Advertisement 1" width="750" height="80">
+</iframe><br><br>
+<iframe src="https://www.weather.com.cn/" title="Weather Service" width="750" height="250">
+</iframe>
+<hr>
+
+
+<p> Here are some special entities: <br>
+&lt; &nbsp; &gt; &nbsp; &copy; &cent; &amp;
+</p>
+<hr>
+<P><i class="fa-solid fa-star" style="font-size:24px; color:yellowgreen;"></i>Subscript and Superscript </P>
+<p>H<sub>2</sub>O</p>
+<p>5<sup>2</sup>=25</p>
+<hr>
+<address>Address: Dalian ZhongShan road. <br> building 123, 190#</address>
+<br>
+<hr>
+
+<p>bdo tag</p>
+<article>
+<bdo dir="ltr">This is a ltr text. 今天的天气真好！</bdo><br>
+<bdo dir="rtl">This is a rtl text.今天的天气真好！</bdo>
+</article>
+
+
+<hr>
+<hr>
+</main>
+
+<footer>
+  &copy; 2025 by Autumn. All Rights Reserved. <br>
+  <a href= "mailto:angie.vivi2013@outlook.com">⭐Contact⭐</a>
+  </footer>
+  
+
+
+
+
+
+
+
+</body>
+
+</html>
