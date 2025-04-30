@@ -1,4 +1,120 @@
-h2 {
-color:aquamarine
-
+/*custom fonts*/
+@font-face {
+    font-family: 'Lobster';
+    src: url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 }
+
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal; 
+    font-size: 100%;
+    color: navy; background-color: white;
+    /* text-align: left;
+    line-height: 150%; */
+    /* display: table; */
+}
+
+h1 {
+    font-family: 'Lobster'; font-style: normal;
+    color: darkblue;
+}
+
+
+h2 {
+    font-family: cursive; font-style: oblique; font-size: 150%;
+    color: darkblue; 
+    text-align: center;
+    line-height: 200%;
+}
+
+
+h3 {
+    font-family: 'Lobster'; font-style: italic; 
+    font-size: 16px;
+    color: rgb(237, 100, 196); background-color: lightyellow;
+}
+
+/* 
+p {
+
+    font-style: normal; font-size: 120%;
+    color: royalblue; 
+    line-height: 120%;
+    text-align: left;
+
+} */
+
+   
+span {
+    height: 50px; 
+    width: 75px;
+    background-color: rgb(200, 241, 239);
+    /* display: inline-block; */
+    /* float:right; */
+    }
+
+
+
+img {
+
+    width: 400px;
+    height: 200px;
+}
+
+/* a {
+    outline: 3px solid yellowgreen;
+} */
+
+.button {
+background-color: rgb(175, 245, 241);
+color: black;
+font-weight: bolder;
+padding: 15px 20px;
+margin-top: 10px;
+text-decoration: none;
+display: inline-block;
+}
+
+.button:hover {
+      background-color: lightskyblue;
+      color: whitesmoke;
+}
+
+
+
+.container {
+display: grid;
+grid-template-areas:  
+             "header header"
+             "menu content"
+             "footer footer";
+grid-template-columns: 1fr 3fr;     
+gap: 5px;
+background-color: rgb(175, 245, 241,0.8);       
+padding: 5px;
+}
+
+
+.container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+  }
+
+.container > div.header {
+    grid-area: header;
+    text-align: center;
+}
+
+
+.container > div.menu {
+    grid-area: menu;
+  }
+  .container > div.content {
+    grid-area: content;
+  }
+  .container > div.footer {
+    grid-area: footer;
+  }
+   
+   
