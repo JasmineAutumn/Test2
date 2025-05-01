@@ -49,7 +49,10 @@ p {
 span {
     height: 50px; 
     width: 75px;
-    background-color: rgb(200, 241, 239);
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bolder;
+    padding : 10px;
     /* display: inline-block; */
     /* float:right; */
     }
@@ -85,6 +88,7 @@ display: inline-block;
 
 .container {
 display: grid;
+/* display: flex; */
 grid-template-areas:  
              "header header"
              "menu content"
