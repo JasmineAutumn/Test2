@@ -121,4 +121,38 @@ padding: 5px;
     grid-area: footer;
   }
    
-   
+
+  a {
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(127, 182, 255);
+    /* width: 500px; */
+    text-align: left;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  a:hover {
+    background-color: rgba(108, 111, 200, 0.6);
+    color: yellow;
+  }
+
+  /* focus is when someone tabbing the page links, using tab key on keyboard */
+  a:focus {   
+    background-color: rgba(180, 54, 25, 0.6);
+    color: white;
+  }
+
+  a:active {
+    border : 3px solid blue;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+
+  ol {
+    list-style: upper-roman;
+  }
