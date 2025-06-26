@@ -35,3 +35,21 @@ function showDate() {
     // 合并显示
     document.getElementById("dateToday").textContent = `🕰️ ${friendlyDate}, ${friendlyTime}`;
 }
+
+
+var instructor = "Teacher Jasmine";
+class Course {
+    constructor(courseName, instructor) {
+        this.courseName = courseName;
+        this.instructor = instructor;
+    }
+    about(){
+          return this.courseName + " course is taught by " + this.instructor + ". 😜";
+    }
+}
+
+function choiceMade (couseChosen) {
+    currentCourse = new Course(couseChosen, instructor);
+    document.getElementById("courseInfo").innerHTML = currentCourse.about();
+
+}
