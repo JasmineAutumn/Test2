@@ -19,8 +19,8 @@ body {
   font-weight: bolder;
   color: rgb(4, 152, 251);
   display:grid;
-  grid-template-columns: 0.5fr 0.5fr;
-  grid-template-rows: 10px 10px ;
+  /* grid-template-columns: 0.5fr 0.5fr;
+  grid-template-rows: 10px 10px ; */
   padding: 2px;
 }
 
