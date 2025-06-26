@@ -19,6 +19,10 @@
  
    <link rel="stylesheet" href="css/fontawesome.min.css">
    <script src="https://kit.fontawesome.com/457a61a961.js" crossorigin="anonymous"></script> 
+  
+   <script src="jscripts/js1.js"></script>
+
+
 
   <style>     
     h1 {color: blueviolet !important; font-family: Verdana !important;} 
@@ -26,7 +30,7 @@
 
 </head>
 <hr>
-<body>
+<body onload="showDate();">
   <header>    
   <nav>
       <ul>
@@ -43,6 +47,11 @@
 <hr>
 <br>
 
+<div id="DateInfo">
+  <div>Today is:</div>
+  <div id="dateToday"> </div> 
+</div>
+<br>
 
 
  <div class="container">
